@@ -15,6 +15,7 @@ import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined
 import "./Menu.css";
 import PestanaLogin from "../PestanaLogin";
 import CloseIcon from '@mui/icons-material/Close';
+import { Link } from "react-router-dom";
 
 
 
@@ -87,8 +88,8 @@ export default function MenuResposive() {
           >
             <MenuIcon />
           </IconButton>
-          <Button component="a" href="/">
-            <Img src={Logo} alt="" />
+          <Button>
+            <Link to="/"><Img src={Logo} alt="" /></Link>
           </Button>
           <Box
             sx={{
