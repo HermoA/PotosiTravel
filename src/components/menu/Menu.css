@@ -1,0 +1,11 @@
+.botonMenu:hover{
+  color: #d52b1e;
+}
+.toolbar{
+  min-height: 40px;
+}
+.toolbarBack{
+  min-height: 30px;
+  height: 30px;
+  max-height: 30px;
+}

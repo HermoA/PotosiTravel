@@ -1,0 +1,21 @@
+.LogoFooter {
+    width: 200px;
+    margin-bottom: 20px;
+}
+.Links {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 15px;
+}
+.Links a {
+    color: #a0a0a0;
+    cursor: pointer;
+    text-decoration: none;
+}
+.Links a:hover{
+    color: white;
+}
+.RedesSociales:hover{
+    color: #d52b1e;
+}

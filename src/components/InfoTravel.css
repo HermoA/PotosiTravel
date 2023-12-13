@@ -1,0 +1,8 @@
+.cardImg{
+    transition: all ease-in-out 300ms;
+    filter:brightness(0.8);
+}
+.cardImg:hover{
+    transform: scale(1.1);
+    filter: none;
+}

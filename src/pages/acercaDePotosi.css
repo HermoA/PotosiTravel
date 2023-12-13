@@ -1,0 +1,35 @@
+@keyframes respirar {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  } 
+  .contenedorImagen{
+    width: 100%;
+    height: 950px;
+    overflow: hidden;
+  }
+  .imagenpotosi{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.7);
+    animation: respirar 15s infinite;
+  }
+  .contendMapas{
+    width: 80%;
+    height: 600px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .mapas{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
