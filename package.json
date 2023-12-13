@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.1",
   "private": true,
-  "homepage": "HermoA.github.io/PotosiTravel",
+  "homepage": "https://HermoA.github.io/PotosiTravel",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
