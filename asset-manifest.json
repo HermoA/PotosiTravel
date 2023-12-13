@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PotosiTravel/static/css/main.ffa5198e.css",
-    "main.js": "/PotosiTravel/static/js/main.3229d19b.js",
+    "main.js": "/PotosiTravel/static/js/main.fdcee64e.js",
     "static/js/787.d5fa4d18.chunk.js": "/PotosiTravel/static/js/787.d5fa4d18.chunk.js",
     "static/media/chu.jpg": "/PotosiTravel/static/media/chu.a213e31f44cf0fb864d8.jpg",
     "static/media/Aventura.jpg": "/PotosiTravel/static/media/Aventura.63eff7f4afc7712d5e61.jpg",
@@ -22,11 +22,11 @@
     "static/media/llamita_logo.svg": "/PotosiTravel/static/media/llamita_logo.c3cdf03cf58364f1515f6ee9566aa51e.svg",
     "index.html": "/PotosiTravel/index.html",
     "main.ffa5198e.css.map": "/PotosiTravel/static/css/main.ffa5198e.css.map",
-    "main.3229d19b.js.map": "/PotosiTravel/static/js/main.3229d19b.js.map",
+    "main.fdcee64e.js.map": "/PotosiTravel/static/js/main.fdcee64e.js.map",
     "787.d5fa4d18.chunk.js.map": "/PotosiTravel/static/js/787.d5fa4d18.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ffa5198e.css",
-    "static/js/main.3229d19b.js"
+    "static/js/main.fdcee64e.js"
   ]
 }
