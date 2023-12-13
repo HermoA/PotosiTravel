@@ -25,16 +25,16 @@ const Img = styled("img")({
   objectPosition: "center",
 });
 const MenuLinktop = [
-  { title: "Acerca de Potosí", path: "/acercade" },
-  { title: "Contactos", path: "/contactanos" },
-  { title: "Eventos", path: "/eventos" },
+  { title: "Acerca de Potosí", path: "/#/acercade" },
+  { title: "Contactos", path: "/#/contactanos" },
+  { title: "Eventos", path: "/#/eventos" },
 ];
 const MenuLinkButoon = [
-  { title: "Lugares", path: "/lugares" },
-  { title: "Comida", path: "/comida" },
-  { title: "Hoteles", path: "/com_1" },
-  { title: "Guias", path: "/com_2" },
-  { title: "Turismo", path: "/acercade" },
+  { title: "Lugares", path: "/#/lugares" },
+  { title: "Comida", path: "/#/comida" },
+  { title: "Hoteles", path: "/#/com_1" },
+  { title: "Guias", path: "/#/com_2" },
+  { title: "Turismo", path: "/#/acercade" },
 ];
 
 export default function MenuResposive() {

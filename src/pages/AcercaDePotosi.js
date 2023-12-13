@@ -5,9 +5,11 @@ import "./acercaDePotosi.css";
 import MapaPotosi from "../img/Mapa_de_localización_Potosí.svg";
 import MapaBolivia from "../img/Bolivia_location_map.svg";
 import Footer from "../components/Footer";
+import MenuResposive from "../components/menu/Menu_resposive";
 export default function AcercaPotosi() {
   return (
     <Box sx={{ backgroundColor: "#fff" }}>
+    <MenuResposive/>
       <div className="contenedorImagen">
         <img className="imagenpotosi" src={Potosi} alt="potosi" />
         <Typography

@@ -1,13 +1,54 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+//import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { RouterProvider, createHashRouter } from 'react-router-dom';
+
+import HomePage from "./pages/HomePage";
+import AcercaDePotosi from "./pages/AcercaDePotosi";
+import Contactanos from "./pages/Contactanos";
+import Eventos from "./pages/Eventos";
+import Lugares from "./pages/Luegares";
+import Turismo from "./pages/Turismo";
+import NotFound from "./pages/NotFound";
+
+const router = createHashRouter([
+  {
+    path:"/",
+    element:<HomePage />,
+  },
+  {
+    path:"/contactanos",
+    element:<Contactanos />,
+  },
+  {
+    path:"/eventos",
+    element:<Eventos />,
+  },
+  {
+    path:"/lugares",
+    element:<Lugares />,
+  },
+  {
+    path:"/turismo",
+    element:<Turismo />,
+  },
+  {
+    path:"/acercade",
+    element:<AcercaDePotosi />,
+  },
+  {
+    path:"*",
+    element:<NotFound />,
+  },
+])
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 
