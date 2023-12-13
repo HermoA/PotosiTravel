@@ -8,6 +8,7 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+import { Link } from "react-router-dom";
 
 const Img = styled("img")({
   width: "50px",
@@ -59,7 +60,7 @@ export default function Footer() {
         </Grid>
         <Grid item xs={12} sx={{mt:"50px", mb:"10px"}}>
           <Typography variant="h6" align="center" color="#fff">
-            www.travelpotosi.com
+            <Link to="/acercade" className="Url">www.travelpotosi.com</Link>
           </Typography>
         </Grid>        
       </Grid>

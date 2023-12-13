@@ -19,3 +19,9 @@
 .RedesSociales:hover{
     color: #d52b1e;
 }
+.Url{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    
+}
